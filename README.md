@@ -36,3 +36,7 @@ Ensure you have a local instance of MySQL Server and the MySQL CLI or a client l
    ```bash
    git clone https://github.com/WorthySkill/Pharmacy-Management-Database-System.git
    cd Pharmacy-Management-Database-System
+2. Execute the production script to compile the database architecture and seed data:
+   ```bash
+   mysql -u root -p < Pharmacy_Database_Schema.sql
+3. Verify role initialization or test transactional query optimization run blocks using your preferred database IDE client.
